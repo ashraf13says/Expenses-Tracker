@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Expense Tracker</string>
+    <string name="add_new_expense">Add New Expense</string>
+    <string name="amount_hint">Amount ($)</string>
+    <string name="save">Save</string>
+    <string name="recommendations_placeholder">Your budget recommendations will appear here.</string>
+</resources>

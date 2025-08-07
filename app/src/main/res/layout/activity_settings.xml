@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ui.settings.SettingsActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:paddingBottom="24dp"/>
+
+    <!-- NEW: Notification Reminder Switch -->
+    <Switch
+        android:id="@+id/switch_notification_reminders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enable Daily Budget Reminders"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Receive daily notifications to review your spending and upcoming bills."
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="16dp"/>
+
+    <!-- You can add other settings here later if needed -->
+
+</LinearLayout>
