@@ -1,15 +1,36 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Ignore Gradle & build files
+.gradle/
+build/
+
+# Ignore local configuration
 local.properties
+
+# Ignore IntelliJ/Android Studio project files
+*.iml
+.idea/
+
+# Ignore OS files
+.DS_Store
+*.log
+
+# Ignore APKs and AABs
+*.apk
+*.aab
+output-metadata.json
+
+# Ignore native builds
+.externalNativeBuild/
+.cxx/
+
+# Ignore captures
+captures/
+
+# Ignore profiling files
+*.hprof
+
+# Keystore
+*.jks
+*.keystore
+
+# Firebase or API secrets
+google-services.json
